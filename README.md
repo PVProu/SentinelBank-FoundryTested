@@ -96,7 +96,7 @@ SentinelBank includes **comprehensive unit tests and fuzzing** using Foundry:
 
 This project has been thoroughly tested with Foundry, achieving **100% coverage on lines, functions, and statements**, and over **90% on branches**:
 
-![Test Coverage Report](assets/Captura de pantalla 2025-08-03 033028.png)
+![Test Coverage Report](assets/coverage.png)
 
 
 ### 🧪 Highlights from `BankTest.t.sol`
