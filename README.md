@@ -82,6 +82,7 @@ feeBox.boxBalance(); // Should reflect 0.01 ETH
 SentinelBank includes **comprehensive unit tests and fuzzing** using Foundry:
 
 ### ✅ Coverage Summary
+
 - 💯 100% line/function/statement coverage
 - ✅ Branch coverage ~98%, only corner branches are excluded
 - 🧪 40+ detailed unit tests
@@ -90,16 +91,13 @@ SentinelBank includes **comprehensive unit tests and fuzzing** using Foundry:
   - Withdrawals for exact deposited balance
   - Admin functions (fee and maxBalance adjustments)
   - Reverts for exceeding user balance
- 
-    ╭----------------------------+-----------------+-----------------+----------------+-----------------╮
-| File                       | % Lines         | % Statements    | % Branches     | % Funcs         |
-+===================================================================================================+
-| src/BankFeesBox.sol        | 100.00% (20/20) | 100.00% (15/15) | 90.00% (9/10)  | 100.00% (6/6)   |
-|----------------------------+-----------------+-----------------+----------------+-----------------|
-| src/ImprovedCryptoBank.sol | 100.00% (28/28) | 100.00% (25/25) | 91.67% (11/12) | 100.00% (6/6)   |
-|----------------------------+-----------------+-----------------+----------------+-----------------|
-| Total                      | 100.00% (48/48) | 100.00% (40/40) | 90.91% (20/22) | 100.00% (12/12) |
-╰----------------------------+-----------------+-----------------+----------------+-----------------╯
+
+### ✅ Test Coverage
+
+This project has been thoroughly tested with Foundry, achieving **100% coverage on lines, functions, and statements**, and over **90% on branches**:
+
+![Test Coverage Report](./1b2bc9ed-23b9-4a05-81c0-431086728f1b.png)
+
 
 ### 🧪 Highlights from `BankTest.t.sol`
 
