@@ -1,6 +1,6 @@
 # 🏦 SentinelBank System with Fee Management
 
-A modular and secure Solidity-based smart contract system for handling multi-user Ether deposits and withdrawals with configurable fees. Designed with best practices for security, access control, and extensibility.
+A modular and secure Solidity-based smart contract system for handling multi-user Ether deposits and withdrawals with configurable fees and full test coverage and fuzzing. Designed with best practices for security, access control, and extensibility.
 
 ---
 
